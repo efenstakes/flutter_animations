@@ -1,4 +1,11 @@
+import 'package:anima/screens/clipPathnCustomPainter/clipp.dart';
+import 'package:anima/screens/clipPathnCustomPainter/customp.dart';
+import 'package:anima/screens/cute_login_screen.dart';
+import 'package:anima/screens/implicit_anims/opacty.dart';
+import 'package:anima/screens/move_screen.dart';
 import 'package:anima/screens/poper_transion_screen.dart';
+import 'package:anima/screens/poper_transition_screen_2.dart';
+import 'package:anima/screens/top_movies/top_movies.dart';
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
@@ -11,10 +18,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.teal,
       ),
       // home: AnimationPage(),
-      home: PoperTransionScreen(),
+      // home: PoperTransionScreen_2(),
+      // home: MoveScreen(),
+      // home: CuteLoginScreen(),
+      // home: Opacty(),
+      // home: TopMoviesScreen(),
+      // home: ClipPScreen(),
+      home: CustomPScreen(),
     );
   }
 }
